@@ -2,6 +2,10 @@
     Main section
 =========================*/
 
+.sideBarIcon{
+  position: relative;
+}
+
 body{
   overflow:hidden;
 }
@@ -70,122 +74,4 @@ body{
   margin:auto;
   width:100px;
   transition:0.5s all;
-}
-
-
-/*=========================
-    About section
-=========================*/
-
-.aboutContent{
-  height: 100vh;
-}
-.logoSection{
-  text-align: center;
-  margin-top:5%;
-  height: 35%;
-  color:#aeaeae;
-  font-size: 110%;
-}
-
-.introText{
-  width: 50%;
-  margin:auto;
-  font-weight: lighter;
-  margin-top:2%;
-}
-
-.logoImg{
-  width:170px;
-}
-.aboutVector{
-  text-align: center;
-  height: 55%;
-}
-.aboutVector img{
-  height:100%;
-}
-
-/*=========================
-      Team Section
-=========================*/
-.teamContent{
-  height:50vh;
-  width: 50%;
-  position: absolute;
-  top: 30%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-}
-
-
-/*=========================
-      Contact Section
-=========================*/
-.contactContent{
-  height:100vh;
-  position: relative;
-}
-.contactInfo{
-  height:70%;
-  margin-bottom: 2%;
-  width: 100%;
-  position: relative;
-}
-.planeVector{
-  position: absolute;
-  bottom:10%;
-  right:25%;
-  opacity: 0.7;
-  width:200px;
-}
-
-.infoList{
-  width: 60%;
-  margin:auto;
-  height:33%;
-
-}
-.infoContent{
-  margin-top:2%;
-  color:gray;
-  opacity: 0.7;
-  font-size: 110%;
-}
-.contactSendBtn{
-  height:20%;
-  text-align: center;
-}
-.sendBtn{
-  width: 250px;
-  -webkit-animation: beat 2s linear infinite;
-  transition:0.5s all;
-}
-.sendBtn:hover{
-  opacity: 0.6;
-  cursor:pointer;
-}
-.contactContentBox{
-  height:60%;
-  top:0;
-  bottom: 0;
-  position:absolute;
-  margin:auto;
-}
-
-@-webkit-keyframes beat {
-  0%{
-  -webkit-transform:  scale(1);
-  }25%{
-    -webkit-transform: scale(1.02);
-  }
-  50%{
-    -webkit-transform:scale(1);
-  }
-  75%{
-    -webkit-transform: scale(0.98);
-  }
-  100%{
-    -webkit-transform: scale(1);
-  }
 }

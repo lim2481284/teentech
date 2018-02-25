@@ -1,0 +1,43 @@
+.contactSection{
+  padding: 0;
+  width: 100%;
+}
+.contactContent{
+  padding:0;
+  margin-top:50%;
+}
+.contactContentBox{
+  height: 100%;
+  width: 100%;
+}
+.infoList{
+  width: 80%;
+  height: 40%;
+  margin-bottom: 7%;
+}
+.addressInfo{
+  margin-bottom: 5%;
+}
+.infoIcon{
+  width: 30%;
+  position: relative;
+  float: left;
+}
+.infoIcon img{
+  width: 50%;
+}
+.infoContent{
+  width: 70%;
+  position: relative;
+  float: left;
+  font-size: 3em;
+}
+.contactSendBtn{
+  margin-top:40%;
+}
+.sendBtn{
+  width: 50%;
+}
+.planeVector{
+  display:none;
+}

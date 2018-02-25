@@ -1,0 +1,33 @@
+
+/*=========================
+    About section
+=========================*/
+
+.aboutContent{
+  height: 100vh;
+}
+.logoSection{
+  text-align: center;
+  margin-top:5%;
+  height: 35%;
+  color:#aeaeae;
+  font-size: 110%;
+}
+
+.introText{
+  width: 50%;
+  margin:auto;
+  font-weight: lighter;
+  margin-top:2%;
+}
+
+.logoImg{
+  width:170px;
+}
+.aboutVector{
+  text-align: center;
+  height: 55%;
+}
+.aboutVector img{
+  height:100%;
+}

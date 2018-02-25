@@ -1,0 +1,101 @@
+
+/*=========================
+      Contact Section
+=========================*/
+.contactContent{
+  height:100vh;
+  position: relative;
+}
+.contactInfo{
+  height:70%;
+  margin-bottom: 2%;
+  width: 100%;
+  position: relative;
+}
+.planeVector{
+  position: absolute;
+  bottom:10%;
+  right:25%;
+  opacity: 0.7;
+  width:200px;
+}
+
+.infoList{
+  width: 60%;
+  margin:auto;
+  height:33%;
+
+}
+.infoContent{
+  margin-top:2%;
+  color:gray;
+  opacity: 0.7;
+  font-size: 110%;
+}
+.contactSendBtn{
+  height:20%;
+  text-align: center;
+}
+.sendBtn{
+  width: 250px;
+  transition:0.5s all;
+  -webkit-transform:scale(0);
+}
+.sendBtn:hover{
+  opacity: 0.6;
+  cursor:pointer;
+  transition: 0.5s all;
+}
+.sendBtn.show{
+  -webkit-transform:scale(1);
+  -webkit-animation: beat2 0.4s linear;
+  margin: auto;
+}
+.sendBtn.animate{
+    -webkit-animation: beat 2s linear infinite;
+}
+.contactContentBox{
+  height:60%;
+  top:0;
+  bottom: 0;
+  position:absolute;
+  margin:auto;
+}
+.planeVector{
+  -webkit-animation: rotate 10s linear infinite;
+}
+@-webkit-keyframes beat {
+  0%{
+  -webkit-transform:  scale(1);
+  }
+  25%{
+    -webkit-transform: scale(1.02);
+  }
+  50%{
+    -webkit-transform:scale(1);
+  }
+  75%{
+    -webkit-transform: scale(0.98);
+  }
+  100%{
+    -webkit-transform: scale(1);
+  }
+}
+
+@-webkit-keyframes rotate {
+  0%{
+  -webkit-transform:  rotate(5deg);
+  }
+  25%{
+  -webkit-transform:  rotate(0deg);
+  }
+  50%{
+  -webkit-transform:  rotate(-5deg);
+  }
+  75%{
+  -webkit-transform:  rotate(0deg);
+  }
+  100%{
+  -webkit-transform:  rotate(5deg);
+  }
+}

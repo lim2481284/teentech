@@ -1,8 +1,35 @@
 
 
-
-
+//Slider function
 $(document).on('ready', function() {
+
+    //Load team page content
+    $.getJSON( "assets/content/team.json", function( data ) {
+      $.each( data, function( key, val ) {
+        var img_url = val.image_url;
+        var name = val.name;
+        var role = val.role;
+        var description = val.description;
+
+        var htmlContent =`
+          <div class="slider-single">
+            <img class="slider-single-image" src="`+img_url+`"/>
+            <a class="slider-single-download" href="javascript:void(0);">`+name+`</i></a>
+            <h1 class="slider-single-title title-header">`+role+`</h1>
+            <h1 class="slider-single-title">`+description+` </h1>
+            <!--
+              Skill list ?
+              <a class="slider-single-likes" href="javascript:void(0);">
+              <i><img style='width:40px' src='assets/img/logo.png'/></i>
+              <p></p>
+            -->
+            </a>
+          </div>
+        `;
+
+        $('.slider-content').append(htmlContent);
+
+      });
 
     var slide = $('.slider-single');
     var slideTotal = slide.length - 1;
@@ -149,3 +176,4 @@ $(document).on('ready', function() {
       });
 
   });
+});

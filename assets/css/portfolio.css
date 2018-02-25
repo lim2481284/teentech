@@ -1,0 +1,147 @@
+.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+.swiper-scrollbar{
+	display:none;
+}
+
+.swiper-button-prev, .swiper-button-next{
+	height:20px !important;
+}
+
+.swiper-slide{
+	text-align: center;
+}
+
+
+.startBtn{
+position: absolute;
+  top: 85%;  /* position the top  edge of the element at the middle of the parent */
+  left: 50%; /* position the left edge of the element at the middle of the parent */
+
+  transform: translate(-50%, -50%);
+
+}
+.sliderImg{
+  height:100% !important;
+}
+
+.portfolioPopupBox{
+  width:80%;
+  height: 100%;
+  margin: auto;
+}
+
+.portfolioPopup{
+  position: absolute;
+  top:0;
+  left:0;
+  width: 100%;
+  height: 100%;
+  background: white;
+  margin:6% 0;
+}
+.popupGallery{
+  height:50%;
+}
+
+.popupTitle{
+  font-size: 150%;
+  color:#44444;
+  opacity: 0.7;
+  text-align: center;
+  margin-top:5%;
+}
+
+.popupDescription{
+  font-size: 100%;
+  color:#44444;
+  opacity: 0.5;
+  text-align: center;
+  margin-bottom: 5%;
+}
+.backSection{
+  text-align: center;
+}
+
+.portfolioContent{
+  height:100vh;
+  position:relative;
+}
+.portfolioBox{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width:700px;
+  height:450px;
+
+}
+.boxColumn{
+  height:100%;
+  position: relative;
+  float:left;
+  display: table;
+}
+.boxRow{
+  width: 100%;
+  transition: 0.5s all;
+  -webkit-transform: scale(0);
+}
+.boxRow.grow{
+  -webkit-animation: beat2 0.4s linear;
+  transform: scale(1);
+}
+
+@keyframes beat2 {
+  0% {
+    transform: scale(0);
+  }
+  70% {
+    transform: scale(1.4);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.column_row{
+  height:100%;
+  position: relative;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.portfolio_img{
+  cursor:pointer;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  border-radius: 100%;
+}
+
+.boxRow:hover{
+  -webkit-transform: scale(2);
+  position: relative;
+  z-index: 100;
+}
+
+.tooltip.bottom .tooltip-inner {
+    background-color:#ff5454;
+    color:white;
+    font-size: 115%;
+    opacity: 1;
+}
+.tooltip.bottom .tooltip-arrow {
+      border-bottom-color: #ff5454;
+      opacity: 1;
+}

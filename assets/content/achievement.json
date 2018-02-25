@@ -1,0 +1,59 @@
+[
+	{
+		"title": "THE CODE ",
+		"description": "This competition is about competitive programming competition.   ",
+		"startDate": "June 13, 2016",
+		"achievement_img": "assets/img/champion.png",
+		"achievement_label":"CHAMPION"
+	},
+  {
+    "title": "ACM ICPC",
+    "description": "This competition is about competitive programming competition.   ",
+    "startDate": "October 7, 2016",
+    "achievement_img": "assets/img/second_place.png",
+    "achievement_label":"FIRST RUNNER UP"
+  },
+	{
+		"title": "DIGIX HACKATHON",
+		"description": "This hackathon is about innovate business idea.   ",
+		"startDate": "November 15, 2016",
+		"achievement_img": "assets/img/champion.png",
+		"achievement_label":"CHAMPION"
+	},
+	{
+    "title": "UNITEN HACKAHTON",
+    "description": "This hackathon is about innovate smart university idea and there are 25 team total participate this competition...  ",
+    "startDate": "August 31, 2017",
+    "achievement_img": "assets/img/champion.png",
+    "achievement_label":"CHAMPION"
+	},
+  {
+    "title": "iNTUition Hackhaton",
+    "description": "This hackathon is about innovate smart university idea and there are 25 team total participate this competition...  ",
+    "startDate": "October 14, 2017",
+    "achievement_img": "assets/img/api.png",
+    "achievement_label":"BEST USE OF BLACK ROCK API"
+	},
+
+  {
+    "title": "WHADDAHACK Hackhaton",
+    "description": "WhaddaHack @SMIDEX 2017 is SME Corp Malaysia inaugural hackathon that aims to spearhead innovation among SMEs in Malaysia. Up to 100 talented individuals are expected to participate in the 22-hour event at MITEC  ",
+    "startDate": "November 15, 2017",
+    "achievement_img": "assets/img/champion.png",
+    "achievement_label":"CHAMPION"
+	},
+  {
+    "title": "CYBER HEROES",
+    "description": "This competition is about computer forensic competititon. Our team member only contribute in presentation stage.  ",
+    "startDate": "December 7, 2017",
+    "achievement_img": "assets/img/champion.png",
+    "achievement_label":"CHAMPION"
+	},
+	{
+    "title": "REKATHON",
+    "description": "This hackathon is about the Internet of Things.",
+    "startDate": "December 16, 2017",
+    "achievement_img": "assets/img/champion.png",
+    "achievement_label":"CHAMPION"
+	}
+]

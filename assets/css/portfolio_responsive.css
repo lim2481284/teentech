@@ -1,0 +1,46 @@
+.portfolioSection{
+  padding-left: 0 !important;
+  width: 100%;
+}
+.portfolioContent{
+  padding-left: 0 !important;
+}
+.portfolioBox {
+    margin-top: 50%;
+    width: 1350px;
+    height: 1000px;
+}
+.portfolioPopup{
+  height: 300%;
+  width: 103%;
+  margin-top: 25%;
+  padding-left: 0 !important;
+}
+.portfolioPopupBox{
+  width: 90%;
+}
+
+.popupTitle {
+    font-size: 5em;
+
+}
+.popupDescription {
+    font-size: 3em;
+
+}
+.backBtn{
+  font-size: 3em;
+  padding: 2%;
+}
+.sliderImg{
+  width: 100% !important;
+  height: auto !important;
+}
+
+.swiper-pagination-bullet{
+  width: 16px;
+  height: 16px;
+}
+.swiper-container-horizontal > .swiper-pagination-bullets .swiper-pagination-bullet{
+  margin: 0 8px;
+}

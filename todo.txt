@@ -1,5 +1,9 @@
-team
-	- use ranking 
 
-acheivement 
-	- 
+	scroll input
+	responsive problem : suit all size
+		- 1024 size got problem
+
+	should not screen rottae
+		- mobile lndscape responsive design
+
+	ios click problem

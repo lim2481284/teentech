@@ -1,0 +1,23 @@
+.logoImg{
+  width: 350px;
+
+}
+.logoLabel{
+  width: 250px;
+}
+.logoSection{
+  height: auto;
+}
+
+.introText{
+  width: 80%;
+  font-size: 3em;
+  margin-bottom: 20%;
+}
+.aboutVector{
+  height: auto;
+
+}
+.aboutVector img{
+  transform: scale(1.3);
+}

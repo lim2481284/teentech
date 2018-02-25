@@ -1,0 +1,29 @@
+[
+	{
+	  "image_url": "assets/img/chew.png",
+	  "name": "Edward",
+	  "role":"Team leader - Developer",
+	  "description":"Take charge of work distribution and progress monitoring.Also a developer that get in charge whenever it is suitable."
+	},
+	{
+	  "image_url": "assets/img/nik.png",
+	  "name": "Nik Mirza",
+	  "role":"Developer",
+	  "description":"Another full stack developer who is able to handle everything on his own. He always make sure his work is delivered on time."
+	},
+	
+	{
+	  "image_url": "assets/img/engshun.png",
+	  "name": "Eng Shun",
+	  "role":"Developer",
+	  "description":"A full stack with very strong knowledge and skills in both frontend and backend. Always complete his job perfectly."
+	},
+	
+	{
+	  "image_url": "assets/img/lim.png",
+	  "name": "Kien Seng",
+	  "role":"Developer - Designer",
+	  "description":"A very dedicative frontend developer and designer with astounding designing talent. Yet, he is attentive enough to handle documentation job neatly."
+	}
+	
+]

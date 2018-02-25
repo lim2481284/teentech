@@ -1,18 +1,23 @@
 
+//Detect screen size changing
+$(window).resize(function() {
+  if(!( /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent) )) {
+    location.reload();
+  }
+});
 
+//Wait for all resource load first
 $(window).load(function(){
 
   //Loader fade out function
   $('.logoGif').addClass('gone');
-  $('.loader').delay(100).fadeOut(700);
-/*
+  $('.loader').delay(500).fadeOut(700);
+
+
   //Reset scroll
   $('html,body').animate({
      scrollTop: $('.body').offset().top
   },100);
-
-  */
-
 
   //Handle user scrolling input : later
   $(window).bind('mousewheel DOMMouseScroll', function(event){
@@ -30,13 +35,20 @@ $(window).load(function(){
   ===========================================*/
 
   //Declaration
-  var about = $('.aboutSection');
+  var about = $('.body');
   var team = $('.teamSection');
   var portfolio = $('.portfolioSection');
   var achievement = $('.achievementSection');
   var contact = $('.contactSection');
 
+
   //Onclick handle
+
+  $('.sideBarIcon').click(function(){
+      $('.boxRow').removeClass('grow');
+      $('.sendBtn').removeClass('show');
+  });
+
   $('.aboutIcon').click(function(){
 
     $('html,body').animate({
@@ -55,8 +67,6 @@ $(window).load(function(){
   });
 
   $('.teamIcon').click(function(){
-
-
     $('html,body').animate({
        scrollTop: team.offset().top
     });
@@ -76,6 +86,21 @@ $(window).load(function(){
 
     $('html,body').animate({
        scrollTop: portfolio.offset().top
+    },function(){
+      $('.boxRow').each(function() {
+
+        //Random popout time
+        var min = 0;
+        var max = 1000;
+        // and the formula is:
+        var random_time = Math.floor(Math.random() * (max - min + 1)) + min
+
+        var box = $(this);
+        window.setTimeout(function(){
+            box.addClass('grow');
+        }, random_time);
+
+      });
     });
 
     $('.iconImg').each(function(i, obj) {
@@ -110,6 +135,13 @@ $(window).load(function(){
 
     $('html,body').animate({
        scrollTop: contact.offset().top
+    },function(){
+      window.setTimeout(function(){
+          $('.sendBtn').addClass('show');
+      }, 500);
+      window.setTimeout(function(){
+          $('.sendBtn').addClass('animate');
+      }, 1000);
     });
 
     $('.iconImg').each(function(i, obj) {
@@ -120,6 +152,8 @@ $(window).load(function(){
     $('.active').removeClass('active');
     $(this).addClass('active');
     $('#contact_icon').attr('src','assets/img/contact_icon_active.png');
+
+
 
   });
 

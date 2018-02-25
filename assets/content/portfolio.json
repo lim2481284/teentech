@@ -1,0 +1,80 @@
+[
+	{
+    "title": "Clearning Point",
+    "description": "A China forex transaction record management website which allow admin and agent to view and manage transaction progress. It was built up using reactjs, laravel and semantic ui.",
+    "main_img": "assets/img/cp.jpg",
+    "img_list":[
+      {
+        "img_url":"assets/img/cp.jpg"
+      },
+      {
+        "img_url":"assets/img/cp.jpg"
+      }
+    ]
+	},
+  {
+    "title": "MiLyfehq",
+    "description": "A website that help you to manage and pay your bill. Technology used was Reactjs, laravel and bootstrap",
+    "main_img": "assets/img/ds.jpg",
+    "img_list":[
+      {
+        "img_url":"assets/img/ds.jpg"
+      },
+      {
+        "img_url":"assets/img/ds.jpg"
+      }
+    ]
+	},
+  {
+    "title": "Bersian",
+    "description": "A point of sales system company's website. We are responsible to re-design the whole website in wordpress.",
+    "main_img": "assets/img/bersian.jpg",
+    "img_list":[
+      {
+        "img_url":"assets/img/bersian.jpg"
+      },
+      {
+        "img_url":"assets/img/bersian.jpg"
+      }
+    ]
+  },
+  {
+    "title": "Wavelet",
+    "description": "Wavelet official website. We are responsible to re-design the whole website in wordpress.  ",
+    "main_img": "assets/img/wavelet.jpg",
+    "img_list":[
+      {
+        "img_url":"assets/img/wavelet.jpg"
+      },
+      {
+        "img_url":"assets/img/wavelet.jpg"
+      }
+    ]
+  },
+  {
+    "title": "TutorBook",
+    "description": "A platform for student to look for tutor and it also allow tutor to batch purchase potential students' info ",
+    "main_img": "assets/img/tutor_home.png",
+    "img_list":[
+      {
+        "img_url":"assets/img/tytir_search.png"
+      },
+      {
+        "img_url":"assets/img/contact.png"
+      }
+    ]
+	},
+  {
+    "title": "Binary Stock",
+    "description": "A responsive web that help user to perform fundamental analysis on US stock. ",
+    "main_img": "assets/img/binarystock.jpg",
+    "img_list":[
+      {
+        "img_url":"assets/img/binarystock.jpg"
+      },
+      {
+        "img_url":"assets/img/binarystock.jpg"
+      }
+    ]
+  }
+]

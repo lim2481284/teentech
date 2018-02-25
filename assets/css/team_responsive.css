@@ -1,6 +1,34 @@
-.slider-container {
-    position: absolute;
-    width: 100%;
-    height: 45%;
-    margin-top: -5%;
+.slider-container{
+  width: 350vw;
+  margin-left:15vw;
+}
+.teamContent{
+  height: 0;
+}
+.slider-container .slider-content{
+  width: 400px;
+  height: 400px;
+}
+.slider-container .slider-left{
+  font-size: 3em;
+  padding: 20px 30px;
+  border: 5px solid #fdc84b;
+}
+.slider-container .slider-right{
+  font-size: 3em;
+  padding: 20px 30px;
+  border: 5px solid #fdc84b;
+}
+.slider-single-title{
+  font-size: 3em !important;
+  margin-top:10%;
+
+}
+
+.title-header{
+  font-size: 4em !important;
+  margin-top:20%;
+}
+.slider-single-download{
+  font-size: 3em !important;
 }
